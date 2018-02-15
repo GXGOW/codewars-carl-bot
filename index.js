@@ -16,9 +16,6 @@ let controls = {
     shooting: true,
     running: false
 };
-const botId = process.env.BOT_ID;
-const botSecret = process.env.BOT_SECRET;
-console.log(botId);
 
 let _lastUpdate = Date.now();
 const _changeDuration = 1000;
