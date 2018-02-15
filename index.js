@@ -54,7 +54,7 @@ const update = (state) => {
         let myCoords;
         //Find my bot
         state.bots.forEach(element => {
-            if (element.id === botId) {
+            if (element.id === process.env.BOT_ID) {
                 myCoords = element.coordinates;
             }
         });
